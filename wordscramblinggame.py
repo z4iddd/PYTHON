@@ -33,7 +33,7 @@ def play_round():
             if attempts > 0:
                 print(f"Wrong guess. Attempts left: {attempts}\n")
 
-    print(f"😞 Out of attempts! The correct word was '{original_word}'.")
+    print(f" Out of attempts! The correct word was '{original_word}'.")
     return 0
 
 
@@ -44,6 +44,6 @@ while True:
 
     choice = input("\nDo you want to play another round? (yes/no): ").lower()
     if choice != "yes":
-        print(f"\n🏆 Final Score: {score}")
+        print(f"\n Final Score: {score}")
         print("Thanks for playing! ")
         break
